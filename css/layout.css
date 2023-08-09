@@ -171,3 +171,32 @@ img{
     border-bottom: solid #cfcfcf 4px;
     border-left: solid #cfcfcf 4px;
 }
+
+
+.notice-gall a.d-iblock{
+    background-color: #84da88;
+    padding: 10px 0;
+    width: 120px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+}
+.notice-gall .active a.d-iblock{
+    background-color: #0ead16;
+}
+.notice-gall .active ul{
+    z-index: 1000;
+}
+.notice-gall ul ul{
+    width: 100%;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    height: 203px;
+}
+.notice-gall .notice ul a{
+    line-height: 49.75px;
+    padding-left: 15px;
+    border-bottom: 1px solid #333;
+}
